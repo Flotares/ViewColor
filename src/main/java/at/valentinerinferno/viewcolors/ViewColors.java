@@ -9,6 +9,4 @@ public final class ViewColors extends JavaPlugin {
     public void onEnable() {
         getCommand("colors").setExecutor(new Color());
     }
-
-
 }
