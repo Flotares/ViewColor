@@ -11,7 +11,7 @@ This is a Minecraft Spigot Plugin that shows every minecraft color inagme with c
 displays all colors with its minecraft color-code
 
 ## Permissions:
-viewcolor.color  
+**viewcolor.color**  
 - Grants access to /colors
 - default: op
 
