@@ -16,12 +16,15 @@ This is a Minecraft Spigot Plugin that shows every minecraft color inagme with c
 **viewcolor.\***
 - Grants acces to all viewcolor commands
 - default: op  
+
 **viewcolor.color**  
 - Grants access to /colors
 - default: op  
+
 **viewcolor.formatting**
 - Grants access to /formattings
 - default: op  
+
 ## Found a bug?
 
 Open an issue [here](https://github.com/Flotares/ViewColor/issues)
