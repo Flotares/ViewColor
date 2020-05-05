@@ -7,13 +7,22 @@ This is a Minecraft Spigot Plugin that shows every minecraft color inagme with c
 3. Reload the server
 
 ## Commands:
-/colors  
-displays all colors with its minecraft color-code
+- /colors  
+-- displays all colors with its minecraft color-code  
+- /formattings  
+-- displays all colors with its minecraft format-code
 
 ## Permissions:
+**viewcolor.\***
+- Grants acces to all viewcolor commands
+- default: op
 **viewcolor.color**  
 - Grants access to /colors
 - default: op
+**viewcolor.formatting**
+- Grants access to /formattings
+- default: op
+
 
 ## Found a bug?
 
