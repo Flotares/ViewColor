@@ -28,9 +28,11 @@ public class Color implements CommandExecutor {
                         ChatColor.LIGHT_PURPLE + "&d - this is magenta\n" +
                         ChatColor.YELLOW + "&e - this is light yellow\n" +
                         ChatColor.WHITE + "&f - this is white\n");
-            }else{
-                player.sendMessage(ChatColor.RED+"You don't have permission!");
+            } else {
+                player.sendMessage(ChatColor.RED + "You don't have permission!");
             }
+        } else {
+            System.out.println("You cannot do this in the console!");
         }
         return true;
     }

@@ -9,7 +9,17 @@ commands:
   colors:
     description: Shows all colors that are useable in Minecraft
     usage: /<command>
+  formattings:
+    description: Shows all formatings that are useable in Minecraft
+    usage: /<command>
 permissions:
+  viewcolor.*:
+    children:
+      viewcolor.color: true
+      viewcolor.formatting: true
   viewcolor.color:
     description: Allows the player to show all colors
+    default: op
+  viewcolor.formatting:
+    description: Allows the player to show all formattings
     default: op
