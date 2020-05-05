@@ -1,0 +1,15 @@
+name: ViewColors
+version: ${project.version}
+main: at.valentinerinferno.viewcolors.ViewColors
+api-version: 1.13
+authors: [Flotares]
+description: This plugin is made so players can look up the minecraft colors ingame
+website: valentinerinferno.at
+commands:
+  colors:
+    description: Shows all colors that are useable in Minecraft
+    usage: /<command>
+permissions:
+  viewcolor.color:
+    description: Allows the player to show all colors
+    default: op
