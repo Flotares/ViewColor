@@ -8,9 +8,9 @@ This is a Minecraft Spigot Plugin that shows every minecraft color inagme with c
 
 ## Commands:
 - /colors  
--- displays all colors with its minecraft color-code  
+  - displays all colors with its minecraft color-code  
 - /formattings  
--- displays all colors with its minecraft format-code
+  - displays all colors with its minecraft format-code
 
 ## Permissions:
 **viewcolor.\***
